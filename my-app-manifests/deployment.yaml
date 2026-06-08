@@ -24,7 +24,7 @@ spec:
       containers:
         - name: my-app
           # Jenkins updates this line automatically in Stage 5
-          image: 503884896971.dkr.ecr.us-east-1.amazonaws.com/my-application:14
+          image: 503884896971.dkr.ecr.us-east-1.amazonaws.com/my-application:15
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
